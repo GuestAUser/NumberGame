@@ -1,0 +1,18 @@
+            for frames in range(55):
+                try:
+                    print(colored(packed_content, 'red')) #1 FRAME
+                    frames += 1
+                    sl(frametime)
+                    system('clear')
+                    print(colored(packed_content, 'green')) #2 FRAME
+                    frames += 1
+                    sl(frametime)
+                    system('clear')
+                    print(colored(packed_content, 'blue')) #3 FRAME
+                    frames += 1
+                    sl(frametime)
+                    system('clear')
+                except KeyboardInterrupt:
+                    raise
+                    
+#change color attempt, ignore
