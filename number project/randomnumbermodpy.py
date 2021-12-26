@@ -43,8 +43,7 @@ while games < 10:
         print("---> PLEASE DO NOT USE STRINGS FOR INPUT! <---")
         print("__could be caused by empty input too__")
         input('continue? [ enter ]')
-        if keyboard.is_pressed('enter'): #must run as root on linux
-            restart()
+        restart()
         
     except KeyboardInterrupt:
         system('clear')
