@@ -6,7 +6,7 @@ import debuganim
 #maybe add multi threading
 
 print("==========================================")
-print("Welcome to the simple random number say!!!")
+print("Welcome to the Number Guess Game!!!")
 print("==========================================")
 games = 0
 points = 0
@@ -37,7 +37,7 @@ while games < 10:
         input('continue? [ enter ]')
         games -= 1 
         system('clear')
-        print("Welcome to the simple random number say!!!")
+        print("Welcome to the Number Guess Game!!!")
         print("Enjoy!")
     except KeyboardInterrupt:
         system('clear')
