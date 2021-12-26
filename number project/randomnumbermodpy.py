@@ -43,7 +43,7 @@ while games < 10:
         system('clear')
         print("\n KeyBoardExit Triggered, end!")
         print("Code: Lk10 -> GuestAUser")
-        exit();
+        exit()
 
 print("Good Game!")
 print("Games: "+ str(games) + ". Points: "+str(points))
