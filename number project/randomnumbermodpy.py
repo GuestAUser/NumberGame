@@ -3,10 +3,9 @@ from os import system #linux case
 from termcolor import colored
 from time import sleep
 import debuganim
-import keyboard
 #maybe add multi threading
 
-welcome_msg = "==========================================\nWelcome to the simple Number Guess Game!!!\n\=========================================="
+welcome_msg = "==========================================\nWelcome to the simple Number Guess Game!!!\n=========================================="
 
 games = 0
 points = 0
