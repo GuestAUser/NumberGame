@@ -17,7 +17,8 @@
 ***Executing Program***
 
 1. Clone or Download the git repository
+2. To git clone, do "git clone https://github.com/GuestAUser/NumberGame.git"
    - Extract if zipped 
      - maintain all files in one folder
-     - go into terminal in the specified path and execute the command - ( python3 randomnumbermodpy.py )
+     - go into terminal in the specified path and execute the command - "python3 randomnumbermodpy.py"
      - you can also execute the test of animation for debug in the debuganim.py file
