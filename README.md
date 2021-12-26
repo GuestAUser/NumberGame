@@ -22,4 +22,4 @@
      - maintain all files in one folder
      - go into terminal in the specified path "/home/$USER/Downloads/NumberGame/number project" and execute the command - "python3 randomnumbermodpy.py"
      - the folder number project has spaces, press tab or add "cd number\ project/" for it to work going to specified path
-     - you can also execute the test of animation for debug in the debuganim.py file
+     - you can also execute the test of animation for debug in the test.py file
