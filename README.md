@@ -13,3 +13,15 @@
 
 
 ![image](https://avatars.githubusercontent.com/u/62957566?v=4)
+[![PERFIL](https://img.shields.io/badge/perfil%20-%23323330.svg?&style=for-the-badge&logo=perfil&logoColor=black&color=FF0080)](https://github.com/iuricode/README-template/tree/main/README-profile)
+
+
+
+
+***Executing Program***
+
+1. Clone or Download the git repository
+   - Extract if zipped 
+     - maintain all files in one folder
+     - go into terminal in the specified path and execute the command - ( python3 randomnumbermodpy.py )
+     - you can also execute the test of animation for debug in the debuganim.py file
