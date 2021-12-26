@@ -41,6 +41,7 @@ while games < 10:
         print("---> PLEASE DO NOT USE STRINGS FOR INPUT! <---")
         print("__could be caused by empty input too__")
         input('continue? [ enter ]')
+        games -= 1
         restart()
         
     except KeyboardInterrupt:
