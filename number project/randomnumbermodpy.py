@@ -18,10 +18,12 @@ while games < 10:
     try:
         if games > 0:
             print("Points: " + str(points) + ". Game: " + str(games))
-        
+            
+        print(welcome_msg)
         games += 1
         print("Try a number (1-25): ") #original = 99;
         Choice = int(input())
+        system('clear')
 
         X = random.randrange(1,25,1) #(1, 99, 1)
         
@@ -37,7 +39,7 @@ while games < 10:
         else:
             print("You miss!")
             
-    except ValueError:
+    except (ValueError, TypeError):
         print("---> PLEASE DO NOT USE STRINGS FOR INPUT! <---")
         print("__could be caused by empty input too__")
         input('continue? [ enter ]')
