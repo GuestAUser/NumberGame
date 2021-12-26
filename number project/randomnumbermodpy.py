@@ -6,7 +6,7 @@ import debuganim
 import keyboard
 #maybe add multi threading
 
-welcome_msg = "==========================================\nWelcome to the simple random number say!!!\n\=========================================="
+welcome_msg = "==========================================\nWelcome to the simple Number Guess Game!!!\n\=========================================="
 
 games = 0
 points = 0
