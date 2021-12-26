@@ -45,7 +45,7 @@ while games < 10:
         print("Code: Lk10 -> GuestAUser")
         exit();
 
-print("Good Games")
+print("Good Game!")
 print("Games: "+ str(games) + ". Points: "+str(points))
 print("Code: Lk10 -> GuestAUser")
 exit()
