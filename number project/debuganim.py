@@ -18,6 +18,7 @@ def textanimation(packed):
         print(colored(format_packed.center(y_pushtimes*int(x_frame)), 'cyan', attrs=['bold'])) #frame set buffer -> {3}
         print(colored(format_packed.center(y_pushtimes*int(x_frame)), 'yellow', attrs=['bold'])) #frame set buffer -> {4}
         print(colored(format_packed.center(y_pushtimes*int(x_frame)), 'grey', attrs=['bold'])) #frame set buffer -> {5}
+        print(colored(format_packed.center(y_pushtimes*int(x_frame)), 'white', attrs=['bold'])) #frame set buffer -> {6}
         sleep(0.25) #time to reset loop{animation};
 
 #ideia space
