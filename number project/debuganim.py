@@ -12,8 +12,6 @@ def textanimation(packed):
     while x_frame != 18: #18 frames for cycle
         system('clear')
         x_frame += 1
-        #print("framecount -> " + str(x_frame) + "\n") #debug status [frames display]
-        #print("y_pustimesvar: " + str(y_pushtimes) + "| To add to Xframes-> " + str(x_frame)) #debug status [push and sh1t]
         print(colored("CONGRATS!".center(80), 'red' , attrs=['bold']))
         print(border)
         print(colored(format_packed.center(y_pushtimes*int(x_frame)), 'green', attrs=['bold'])) #frame set buffer -> {1}
@@ -24,13 +22,3 @@ def textanimation(packed):
         print(colored(format_packed.center(y_pushtimes*int(x_frame)), 'white', attrs=['bold'])) #frame set buffer -> {6}
         print(border)
         sleep(0.25) #time to reset loop{animation};
-#ideia space
-
-What_to_do = '''
-
-1 - find a way to alternate colors givin in the range of color_sets -> []
-2 - maybe add multi threading?
-3 - will multi threading ruin my animation speed, because of the faster "render" of the animation?
-4 - do a revert animation?
-
-'''
